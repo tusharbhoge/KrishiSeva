@@ -1,0 +1,2 @@
+# KrishiSeva
+platform for farmers
