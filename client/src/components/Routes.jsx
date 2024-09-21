@@ -4,6 +4,11 @@ import Home1 from "./croppredictor/Home1";
 import Home2 from "./Agrirental/Home2";
 import App from "../App";
 import Home from "./Parent/Home";
+import Authentication1 from "./Parent/Authentication/Authentication1";
+import Authentication2 from "./Parent/Authentication/Authentication2";
+
+
+const isLogin=true;
 
 const router= createBrowserRouter([
     { // parent
@@ -11,6 +16,8 @@ const router= createBrowserRouter([
         element: <App/>,
         children:[
             {path:"/",element:<Home/>},
+            {path:"/login",element:<Authentication1/>},
+            {path:"/signup",element:<Authentication2/>},
 
             {  // crop predictor routes
                 path:"/cropPredictor",

@@ -29,7 +29,7 @@ const Navbar = (props) => {
    
     <nav className={`w-full h-24 ${top} left-0 bg-white fixed flex justify-between px-14 items-center transition-all duration-300`}>
         <Link to="/"><img src={logo} alt="logo" className='h-20 w-auto p-3' /></Link>
-        <Button title="Register" className="  text-xl flex justify-center text-green-700 items-center h-10 w-auto p-4 border font-bold border-green-500 rounded-[8px] hover:text-white hover:bg-green-600"/>
+        <Button to="login" title="Login" className="  text-xl flex justify-center text-green-700 items-center h-10 w-auto p-4 border font-bold border-green-500 rounded-[8px] hover:text-white hover:bg-green-600"/>
 
     </nav>
     

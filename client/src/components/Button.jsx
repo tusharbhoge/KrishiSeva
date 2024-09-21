@@ -1,12 +1,12 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 const Button = (props) => {
   return (
     <div>
-    <Link  to ={props.to} className={props.className}  >
+    <NavLink  to ={props.to} className={props.className}  >
     {props.title}
-    </Link>
+    </NavLink>
     </div>
   )
 }
