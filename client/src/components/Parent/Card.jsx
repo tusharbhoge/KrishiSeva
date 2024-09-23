@@ -38,7 +38,7 @@ const Card = () => {
   return (
     <div className="min-h-screen w-full flex flex-col items-center bg-gray-50 p-6">
       
-      <h2 className="text-3xl font-bold text-gray-800 mb-8"> Some Additional Features</h2>
+      <h2 className="text-3xl font-bold text-gray-800 mb-8"> Additional Features</h2>
 
      
       <div className="w-full flex flex-wrap justify-center items-center gap-6">
